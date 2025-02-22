@@ -2,6 +2,7 @@ import tweepy
 import pandas as pd
 import os
 from textblob import TextBlob
+import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 def authenticate_twitter_app():
     load_dotenv()
